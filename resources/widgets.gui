@@ -1,0 +1,54 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <!-- Additional Imports -->
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/panoramaview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/pagination_dots.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/push_button_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+    <link rel="stylesheet" href="/mnt/sysassets/widgets/dynamic_textarea.css" />
+    <link rel="import" href="/mnt/sysassets/widgets/dynamic_textarea.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/mixed_text_widget.gui" />
+    
+    <!-- Symbol definition -->
+    <symbol id="frames" href="#sprite-image">
+      <animate id="anim" attributeName="value" begin="enable"
+          from="1" to="15" dur="1"
+          repeatDur="1" repeatCount="indefinite" />
+      <image href="jumpingjack/frame_01.png" />
+    </symbol>
+    
+    <symbol id="wolfFrames" href="#sprite-image">
+      <animate id="anim" attributeName="value" begin="enable"
+          from="1" to="11" dur="1"
+          repeatDur="1" repeatCount="indefinite" />
+      <image href="wolf_idle/Idle_01.png" />
+    </symbol>
+    
+    <symbol id="wolfRunFrames" href="#sprite-image">
+      <animate id="anim" attributeName="value" begin="enable"
+          from="1" to="10" dur="1"
+          repeatDur="1" repeatCount="indefinite" />
+      <image href="wolf_run/Running_01.png" />
+    </symbol>
+    
+    <symbol id="squatFrames" href="#sprite-image">
+      <animate id="anim" attributeName="value" begin="enable"
+          from="1" to="5" dur="1"
+          repeatDur="1" repeatCount="indefinite" />
+      <image href="squats/squatframe_0.png" />
+    </symbol>
+    
+    <symbol id="wolfBiteFrames" href="#sprite-image">
+      <animate id="anim" attributeName="value" begin="enable"
+          from="1" to="5" dur="1"
+          repeatDur="1" repeatCount="indefinite" />
+      <image href="wolf_bite/Biting_01.png" />
+    </symbol>
+    
+  </defs>
+</svg>
+

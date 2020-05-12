@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "2dab9f4b-91d6-48d5-9c60-ea035c9e52f3",
+    "appType": "app",
+    "appDisplayName": "FitPets",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "FitPets"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}
